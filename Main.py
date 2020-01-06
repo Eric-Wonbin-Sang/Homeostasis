@@ -138,8 +138,6 @@ def main():
                 none_counter += 1
                 cv2.imshow(str(camera.name), cv2.imread("0.png") )
 
-
-
         q = cv2.waitKey(1)
         if q == ord("q"):
             break
